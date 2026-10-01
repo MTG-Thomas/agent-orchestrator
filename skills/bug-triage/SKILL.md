@@ -10,7 +10,7 @@ Triage bugs into well-structured GitHub issues on the correct upstream repo.
 
 ## 1. Pre-flight
 
-- **Pull latest code:** `git pull origin main`. Stale code = bad triage.
+- **Inspect current source:** Fetch and inspect the selected current ref. Preserve the exact requested branch/commit and dirty work; use an isolated worktree for another revision rather than pulling into or switching an active checkout.
 - **Target repo:** Always file on the **upstream org** (`ComposioHQ/agent-orchestrator`), not forks.
 - **Record source:** chat URL, reporter name, attachments.
 
